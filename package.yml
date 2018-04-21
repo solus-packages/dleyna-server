@@ -1,21 +1,17 @@
 name       : dleyna-server
 version    : 0.6.0
-release    : 2
+release    : 3
 source     :
     - https://01.org/sites/default/files/downloads/dleyna/dleyna-server-0.6.0.tar_2.gz : fd2263134b90cf5ce61d0f4ab411d88e08e0208061dbe4f7e03c25a5330d0b3b
-license    : LGPL-2.1
+license    : LGPL-2.1-only
 component  : programming.library
 summary    : Library to discover, browse and manipulate Digital Media Servers
 description: |
     Library to discover, browse and manipulate Digital Media Servers
 builddeps  :
     - pkgconfig(dleyna-core-1.0)
-    - pkgconfig(gssdp-1.0)
-    - pkgconfig(gupnp-1.0)
     - pkgconfig(gupnp-av-1.0)
     - pkgconfig(gupnp-dlna-2.0)
-    - pkgconfig(libsoup-2.4)
-    - pkgconfig(libxml-2.0)
 setup      : |
     %autogen --disable-static
 build      : |
