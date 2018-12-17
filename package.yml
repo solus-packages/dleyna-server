@@ -1,8 +1,8 @@
 name       : dleyna-server
 version    : 0.6.0
-release    : 3
+release    : 4
 source     :
-    - https://01.org/sites/default/files/downloads/dleyna/dleyna-server-0.6.0.tar_2.gz : fd2263134b90cf5ce61d0f4ab411d88e08e0208061dbe4f7e03c25a5330d0b3b
+    - https://github.com/intel/dleyna-server/archive/0.6.0.tar.gz : fd2263134b90cf5ce61d0f4ab411d88e08e0208061dbe4f7e03c25a5330d0b3b
 license    : LGPL-2.1-only
 component  : programming.library
 summary    : Library to discover, browse and manipulate Digital Media Servers
